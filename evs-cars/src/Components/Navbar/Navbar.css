@@ -1,0 +1,28 @@
+.navlogo{
+     font-family: "Roboto", sans-serif;
+     font-style: italic;
+     font-size: 42px;
+     font-weight: 500px;
+     cursor: pointer;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 60px;
+    color: white;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap:70px;
+    list-style-type:none;
+    font-size: 18;
+    cursor: pointer;
+}
+.nav-contact{
+    background-color: white;
+    color : rgb(8, 8, 8);
+    padding: 20px 38px;
+    border-radius: 50px;
+}
